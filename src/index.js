@@ -22,10 +22,6 @@ const setupServerAndStart = async() => {
         //     'This is a testing email',
         //     'Hey! Hope you received the mail'
         // );
-        
-        nodeCron.schedule('*/1 * * * *', () => {
-            console.log('Running a task every minute');
-        })
     })
 }
 
